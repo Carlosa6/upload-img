@@ -1,0 +1,26 @@
+{
+  "name": "pinterest-fake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev":"nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.0",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "timeago.js": "^4.0.2",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
